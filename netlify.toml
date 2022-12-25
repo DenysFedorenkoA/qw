@@ -1,0 +1,20 @@
+[[redirects]]
+  from = "/<pathx>"
+  to = "<https://sensational-lokum-b9148b.netlify.app/Version.json>"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+    Access-Control-Allow-Headers = "*"
+    
+	Accept-Patch = "application/json"
+	
+	Access-Control-Allow-Method = "GET,POST,PATCH"
+	
+	Access-Control-Request-Method = "GET,POST,PATCH"
+	
+	

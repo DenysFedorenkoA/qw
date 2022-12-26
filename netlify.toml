@@ -1,9 +1,9 @@
 [[redirects]]
   from = "/<pathx>"
-  to = "<https://sensational-lokum-b9148b.netlify.app/Version.json>"
+  to = "<https://denysfedorenkoa.github.io/qw/Version.json>"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
+  headers = {X-From = "Github"}
 [[headers]]
   for = "/*"
   [headers.values]
